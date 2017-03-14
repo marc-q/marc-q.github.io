@@ -1,6 +1,4 @@
-[Home](http://q.marcvd.me)
-
-# Markdown Syntax
+Markdown Syntax
 
 * Absatz
 * Zeilenumbruch
