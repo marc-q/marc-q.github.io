@@ -1,0 +1,23 @@
+<!doctype.html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>marc-q.github.io</title>
+    <link href="/assets/css/style.css?v=5e3e55643d906bceea65a7920c420f93058f24d4" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+      </header>
+      <section>
+      
+      {{ content }}
+      
+      </section>
+      <p><small>Hosted on GitHub Pages</small></p>
+    </div>
+  </body>
+</html>
