@@ -5,6 +5,12 @@ html
 	line-height: 1.5;
 }
 
+footer
+{
+	position: fixed;
+	bottom: 10px;
+}
+
 body
 {
 	width: 80%;
