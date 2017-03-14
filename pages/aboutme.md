@@ -1,4 +1,8 @@
-# About me
+---
+layout: page
+title: About me
+permalink: /aboutme/
+---
 
 ![Avatar](/assets/img/avatar.png)
 
