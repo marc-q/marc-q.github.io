@@ -1,0 +1,23 @@
+<!doctype.html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title | default: site.github.repository_name }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+      </header>
+      <section>
+      
+      {{ content }}
+      
+      </section>
+      <p><small>Hosted on GitHub Pages</small></p>
+    </div>
+  </body>
+</html>
