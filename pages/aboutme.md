@@ -8,5 +8,5 @@
 <dt>Birthplace</dt>
 <dd>Germany</dd>
 <dt>GitHub</dt>
-<dd>marc-q</dd>
+<dd>@marc-q</dd>
 </dl>
