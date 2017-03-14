@@ -138,10 +138,10 @@ Links
 =====
 
 ```
-[Beschriftung des Links](http://devdiary.org/ "Titel, der beim überfahren mit der Maus angezeigt wird")
+[Beschriftung des Links](http://q.marcvd.me/ "Titel, der beim überfahren mit der Maus angezeigt wird")
 ```
 
-[Beschriftung des Links](http://devdiary.org/ "Titel, der beim überfahren mit der Maus angezeigt wird")
+[Beschriftung des Links](http://q.marcvd.me/ "Titel, der beim überfahren mit der Maus angezeigt wird")
 
 Bilder
 ======
