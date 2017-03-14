@@ -16,6 +16,11 @@ a
 	color: #156aff;
 }
 
+a#home
+{
+	text-decoration: none;
+}
+
 blockquote, pre
 {
 	background-color: lightgrey;
