@@ -4,7 +4,7 @@ html
 	font-size: 14px;
 	line-height: 1.5;
 	background-color: #201c1b;
-  color: #bebebe;
+  	color: #bebebe;
 }
 
 footer
@@ -66,4 +66,16 @@ table tr
 table tr:nth-child(2n)
 {
 	background-color: #f8f8f8;
+}
+
+/* MESSAGE */
+div#message h1, div#message p
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+div#message h1
+{
+	font-size: 5em;
 }
