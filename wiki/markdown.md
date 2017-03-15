@@ -153,3 +153,9 @@ Bilder
 ```
 
 ![Alternativtext](/assets/img/avatar.png "Bildtitel")
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
