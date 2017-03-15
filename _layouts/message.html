@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title | default: site.github.repository_name }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <style>
+      html
+    	{
+    		background-color: #201c1b;
+    		color: #bebebe;
+    	}
+    	h1, p
+    	{
+    		text-align: center;
+    		font-weight: bold;
+    	}
+    	h1
+    	{
+    		font-size: 5em;
+    	}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    
+      {{ content }}
+      
+    </div>
+    <footer>
+      <p><small>Hosted on GitHub Pages</small></p>
+    </footer>
+  </body>
+</html>
