@@ -36,7 +36,7 @@ Schrift verändern
 Kursiv
 ------
 
-```Markdown
+```markdown
 *Kursiv* oder _Kursiv_
 ```
 
@@ -45,7 +45,7 @@ Kursiv
 Fett
 ----
 
-```Markdown
+```markdown
 **Fett** oder __Fett__
 ```
 
@@ -54,7 +54,7 @@ Fett
 Fett kursiv
 -----------
 
-```Markdown
+```markdown
 ***Fett kursiv*** oder ___Fett kursiv___
 ```
 
@@ -63,7 +63,7 @@ Fett kursiv
 Text markieren
 ==============
 
-```Markdown
+```markdown
 Markierter `Quelltext`
 ```
 
@@ -75,7 +75,7 @@ Listen
 Ungeordnete Liste
 -----------------
 
-```Markdown
+```markdown
 * Ein Punkt in einer ungeordneten Liste.
 		* Ein unterpunkt von dem Punkt über diesem.
 * Ein weiterer Punkt.
@@ -88,7 +88,7 @@ Ungeordnete Liste
 Geordnete Liste
 ---------------
 
-```Markdown
+```markdown
 1. Punkt eins in einer geordneten Liste.
 2. Punkt zwei.
 ```
@@ -102,7 +102,7 @@ Geordnete Liste
 HTML-Überschriften
 ------------------
 
-```Markdown
+```markdown
 # Überschrift von der ersten Ebene
 ## Überschrift der zweiten Ebene
 ```
@@ -113,7 +113,7 @@ HTML-Überschriften
 Alternativen
 ------------
 
-```Markdown
+```markdown
 Überschrift der ersten Ebene
 ============================
 
@@ -130,7 +130,7 @@ Alternativen
 Zitate
 ======
 
-```Markdown
+```markdown
 > Ein Zitat welches in ein HTML-Blockquote-Element gepackt wird.
 ```
 
@@ -139,7 +139,7 @@ Zitate
 Links
 =====
 
-```Markdown
+```markdown
 [Beschriftung des Links](http://q.marcvd.me/ "Titel, der beim überfahren mit der Maus angezeigt wird")
 ```
 
@@ -148,14 +148,8 @@ Links
 Bilder
 ======
 
-```Markdown
+```markdown
 ![Alternativtext](/assets/img/avatar.png "Bildtitel")
 ```
 
 ![Alternativtext](/assets/img/avatar.png "Bildtitel")
-
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
