@@ -36,12 +36,16 @@ Schrift verändern
 Kursiv
 ------
 
-`*Kursiv* oder _Kursiv_`
+```Markdown
+*Kursiv* oder _Kursiv_
+```
+
+*Kursiv* oder _Kursiv_
 
 Fett
 ----
 
-```
+```Markdown
 **Fett** oder __Fett__
 ```
 
@@ -50,7 +54,7 @@ Fett
 Fett kursiv
 -----------
 
-```
+```Markdown
 ***Fett kursiv*** oder ___Fett kursiv___
 ```
 
@@ -59,7 +63,7 @@ Fett kursiv
 Text markieren
 ==============
 
-```
+```Markdown
 Markierter `Quelltext`
 ```
 
@@ -71,7 +75,7 @@ Listen
 Ungeordnete Liste
 -----------------
 
-```
+```Markdown
 * Ein Punkt in einer ungeordneten Liste.
 		* Ein unterpunkt von dem Punkt über diesem.
 * Ein weiterer Punkt.
@@ -84,7 +88,7 @@ Ungeordnete Liste
 Geordnete Liste
 ---------------
 
-```
+```Markdown
 1. Punkt eins in einer geordneten Liste.
 2. Punkt zwei.
 ```
@@ -98,7 +102,7 @@ Geordnete Liste
 HTML-Überschriften
 ------------------
 
-```
+```Markdown
 # Überschrift von der ersten Ebene
 ## Überschrift der zweiten Ebene
 ```
@@ -109,7 +113,7 @@ HTML-Überschriften
 Alternativen
 ------------
 
-```
+```Markdown
 Überschrift der ersten Ebene
 ============================
 
@@ -126,7 +130,7 @@ Alternativen
 Zitate
 ======
 
-```
+```Markdown
 > Ein Zitat welches in ein HTML-Blockquote-Element gepackt wird.
 ```
 
@@ -135,7 +139,7 @@ Zitate
 Links
 =====
 
-```
+```Markdown
 [Beschriftung des Links](http://q.marcvd.me/ "Titel, der beim überfahren mit der Maus angezeigt wird")
 ```
 
@@ -144,7 +148,7 @@ Links
 Bilder
 ======
 
-```
+```Markdown
 ![Alternativtext](/assets/img/avatar.png "Bildtitel")
 ```
 
