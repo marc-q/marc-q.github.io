@@ -4,21 +4,39 @@ html
 	font-size: 14px;
 	line-height: 1.5;
 	background-color: #201c1b;
-  	color: #bebebe;
+  color: #bebebe;
 }
 
-footer
+/* Layout */
+body, footer
 {
-	position: static;
-	bottom: 10px;
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 body
 {
 	width: 80%;
+	min-height: 95vh;
 	margin-left: 10%;
+	position: relative;
 }
 
+div.content
+{
+  margin-top: 5vh;
+	padding-bottom: 50px;
+}
+
+footer
+{
+	height: 50px;
+  position: absolute;
+	bottom: 0;
+}
+
+/* Text */
 a
 {
 	color: #156aff;
@@ -40,6 +58,7 @@ blockquote
 	color: black;
 }
 
+/* Tables */
 table
 {
 	width: 100%;
