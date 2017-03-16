@@ -9,7 +9,7 @@ html
 
 footer
 {
-	position: fixed;
+	position: static;
 	bottom: 10px;
 }
 
