@@ -1,12 +1,8 @@
 body, footer.main {margin: 0; padding: 0; border: 0;}
 
-body {width: 80%; min-height: 95vh; margin-left: 10%; position: relative;}
-
 div.content {margin-top: 5vh; padding-bottom: 50px;}
 
 footer.main {height: 50px; position: absolute; bottom: 0;}
-
-a {color: #156aff;}
 
 a#home {text-decoration: none;}
 
