@@ -7,7 +7,6 @@
     <style>
       html {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 14px; line-height: 1.5; background-color: #201c1b; color: #bebebe;}
     </style>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     {% feed_meta %}
   </head>
   <body>
@@ -25,5 +24,21 @@
     <footer class="main">
       <p><small>Hosted on GitHub Pages</small></p>
     </footer>
+    <noscript id="deferred-styles">
+      <link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | relative_url }}"/>
+    </noscript>
+    <script>
+      var loadDeferredStyles = function() {
+        var addStylesNode = document.getElementById("deferred-styles");
+        var replacement = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement)
+        addStylesNode.parentElement.removeChild(addStylesNode);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+      else window.addEventListener('load', loadDeferredStyles);
+    </script>
   </body>
 </html>
