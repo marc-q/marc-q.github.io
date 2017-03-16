@@ -1,10 +1,4 @@
-body, footer.main {margin: 0; padding: 0; border: 0;}
-
-div.content {margin-top: 5vh; padding-bottom: 50px;}
-
 footer.main {height: 50px; position: absolute; bottom: 0;}
-
-a#home {text-decoration: none;}
 
 blockquote, pre {padding: 1%;}
 
