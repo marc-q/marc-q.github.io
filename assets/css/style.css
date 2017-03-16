@@ -1,4 +1,4 @@
-blockquote, pre {padding: 1%;}
+blockquote, pre {padding: 1%; white-space: pre-wrap;}
 
 blockquote {background-color: lightgrey; color: black;}
 
