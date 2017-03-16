@@ -4,11 +4,11 @@ html
 	font-size: 14px;
 	line-height: 1.5;
 	background-color: #201c1b;
-  color: #bebebe;
+	color: #bebebe;
 }
 
 /* Layout */
-body, footer
+body, footer.main
 {
 	margin: 0;
 	padding: 0;
@@ -25,14 +25,14 @@ body
 
 div.content
 {
-  margin-top: 5vh;
+	margin-top: 5vh;
 	padding-bottom: 50px;
 }
 
-footer
+footer.main
 {
 	height: 50px;
-  position: absolute;
+	position: absolute;
 	bottom: 0;
 }
 
