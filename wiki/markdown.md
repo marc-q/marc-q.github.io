@@ -19,6 +19,7 @@ title: Markdown Syntax
 * [Zitate](#zitate)
 * [Links](#links)
 * [Bilder](#bilder)
+* [Tabellen](#tabellen)
 
 Absatz
 ======
