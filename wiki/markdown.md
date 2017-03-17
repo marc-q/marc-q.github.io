@@ -1,3 +1,8 @@
+---
+layout: page
+title: Markdown Syntax
+---
+
 Markdown Syntax
 
 * [Absatz](#absatz)
@@ -133,7 +138,6 @@ Zitate
 ```markdown
 > Ein Zitat welches in ein HTML-Blockquote-Element gepackt wird.
 ```
-
 > Ein Zitat welches in ein HTML-Blockquote-Element gepackt wird.
 
 Links
