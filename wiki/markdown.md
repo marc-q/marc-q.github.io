@@ -155,3 +155,18 @@ Bilder
 ```
 
 ![Alternativtext](/assets/img/avatar.png "Bildtitel")
+
+Tabellen
+========
+
+```markdown
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+```
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
