@@ -4,15 +4,11 @@ blockquote, pre {padding: 1%; white-space: pre-wrap;}
 
 blockquote {background-color: lightgrey; color: black;}
 
-table {width: 100%; overflow: auto; display: block; border-spacing: 0; border-collapse: collapse;}
+table {max-width: 100%; overflow: auto; display: block; border-spacing: 0;}
 
-table th {font-weight: bold; background-color: lightgray;}
+table th {font-weight: bold;}
 
-table th, table td {border: 1px solid #ddd; padding: 6px 13px;}
-
-table tr {border-top: 1px solid #ccc; background-color: #fff;}
-
-table tr:nth-child(2n) {background-color: #f8f8f8;}
+table th, table td {padding: 6px 13px;}
 
 div#message h1, div#message p {text-align: center; font-weight: bold;}
 
