@@ -3,8 +3,6 @@ layout: page
 title: Markdown Syntax
 ---
 
-Markdown Syntax
-
 * [Absatz](#absatz)
 * [Zeilenumbruch](#zeilenumbruch)
 * [Schrift verändern](#schrift-verändern)
