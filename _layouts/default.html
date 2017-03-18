@@ -15,16 +15,14 @@
     {% feed_meta %}
   </head>
   <body>
-    <div class="container content">
+    <div class="content">
       <header>
         <h1><a id="home" href="http://www.marcvd.me">{{ site.title | default: site.github.repository_name }}</a></h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
       </header>
-      <section>
-      
+
       {{ content }}
-      
-      </section>
+
     </div>
     <footer class="main">
       <p><small>Hosted on GitHub Pages</small></p>
