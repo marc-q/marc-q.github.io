@@ -25,7 +25,7 @@ vorhanden ist. Dies habe ich hierfür jedoch Ausgelassen. Mit dem GNOME-Terminal
 
 ### Der Code
 
-```C
+```c
 /* Copyright 2016 Marc Volker Dickmann */
 /* Prints some nice colors! */
 #include <stdio.h>
