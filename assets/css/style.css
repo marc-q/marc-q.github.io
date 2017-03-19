@@ -1,3 +1,5 @@
+@media (min-width: 984px) {body {width: 984px; margin: 0 auto;}}
+
 img, embed, object, video {max-width: 100%;}
 
 blockquote, pre {padding: 1%;}

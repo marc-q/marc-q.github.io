@@ -5,20 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ site.title | default: site.github.repository_name }}</title>
     <style>
-      html {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 14px; line-height: 1.5; background-color: #201c1b; color: #bebebe;}
-      body, footer.main {margin: 0; padding: 0; border: 0;}
+      html {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; font-weight: 400; background-color: #201c1b; color: #bebebe;}
+      header.main, body, footer.main {margin: 0; padding: 0; border: 0;}
       body {width: 80%; min-height: 95vh; margin-left: 10%; position: relative;}
       div.content {margin-top: 5vh; padding-bottom: 50px;}
+      header.main {width: 100%;}
       footer.main {height: 50px; position: absolute; bottom: 0;}
       a {color: #156aff;} a#home {text-decoration: none;}
+      article.post {padding-bottom: 1%; border-bottom: 1px solid #11100f;}
+      .fleft, ul#sitenav li {float: left;}
+      .fright {float: right;}
+      ul#sitenav {list-style: none;}
+      ul#sitenav li {margin: 0 10px;}
     </style>
     {% feed_meta %}
   </head>
   <body>
     <div class="content">
-      <header>
+      <header class="main fleft">
         <h1><a id="home" href="http://www.marcvd.me">{{ site.title | default: site.github.repository_name }}</a></h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p class="fleft">{{ site.description | default: site.github.project_tagline }}</p>
+        <ul id="sitenav" class="fright">
+          <li><a href="http://www.marcvd.me/">Home</a></li>
+          <li><a href="http://www.marcvd.me/aboutme/">About Me</a></li>
+        </ul>
       </header>
 
       {{ content }}
