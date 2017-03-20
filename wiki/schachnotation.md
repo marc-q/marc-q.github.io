@@ -4,6 +4,7 @@ layout: page
 ---
 
 ### Figuren
+
 | Figur | Bezeichnung |
 | ----- | ----------- |
 | König | K |
