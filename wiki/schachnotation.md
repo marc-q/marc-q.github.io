@@ -23,6 +23,7 @@ Figur Uhrsprungfeld Zielfeld
 ```
 
 **Beispiele**
+
 | Notation | Beschreibung |
 | -------- | ------------ |
 | Ke1e2 | König ein Feld vorziehen. |
