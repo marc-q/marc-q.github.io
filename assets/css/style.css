@@ -1,6 +1,6 @@
 img, embed, object, video {max-width: 100%;}
 
-small#footer-copy {float: right;};
+small#footer-copy {float: right;}
 
 blockquote, pre {padding: 1%;}
 blockquote {background-color: lightgrey; color: black;}
