@@ -46,7 +46,7 @@ angehängt werden.
 **Frage:** Wie kann vor dem absenden, dass Formular validieren?
 
 **Antwort:**
-Indem ich dass Normale Buttons anstatt Submit-Buttons verwende, und    
+Indem ich Normale Buttons anstatt Submit-Buttons verwende, und    
 und dass Formular nach dem Prüfen mittels
 
 ```javascript
