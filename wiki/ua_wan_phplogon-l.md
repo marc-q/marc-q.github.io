@@ -64,14 +64,12 @@ Auf gar keinen Fall in Klartext, ich würde einen Salt (Hashsumme) verwenden.
 **Antwort:**
 
 ```php
-<!php
 function save_password ($db, $password)
 {
 	$hash = password_hash ('$password', PASSWORD_DEFAULT);
 	$query = "INSERT INTO passwoerter VALUES ('$hash')";
 	$res = mysqli_query ($db, $query);
 }
-!>
 ```
 
 **Frage:** Was ist md5?
@@ -89,7 +87,6 @@ Die Funktion gibt die Fehlermeldung zurück.
 **Antwort:**
 
 ```php
-<!php
 function insert_data ($db, $username, $password)
 {
 	$loginname = mysqli_real_escape_string ($db, '§username');
@@ -97,7 +94,6 @@ function insert_data ($db, $username, $password)
 	$query = "INSERT INTO benutzer VALUES ('$loginname', '$hash')";
 	$res = mysqli_query ($db, $query);
 }
-!>
 ```
 
 **Frage:** Wie bekommen sie die Werte des HTML Formulars in PHP?
@@ -106,17 +102,13 @@ function insert_data ($db, $username, $password)
 Bei der Methode POST verwendet man
 
 ```php
-<!php
 _POST['FELDNAME']
-!>
 ```
 
 für GET
 
 ```php
-<!php
 _GET['FELDNAME']
-!>
 ```
 
 **Frage:** Wie leiten sie in PHP den Nutzer auf eine andere Webseite um?
@@ -125,9 +117,7 @@ _GET['FELDNAME']
 Ich nutze die header Funktion.
 
 ```php
-<!php
 header ("Location: http://...");
-!>
 ```
 
 **Frage:** Wozu dient in PHP die Funktion die?
@@ -153,7 +143,6 @@ Wenn der zurückgegebene Wert nur im Fehlerfall NULL oder false haben kann.
 **Antwort:**
 
 ```php
-<!php
 function save_password ($db, $username)
 {
 	$loginname = mysqli_real_escape_string ($db, '§username');
@@ -170,7 +159,6 @@ function save_password ($db, $username)
 		return $row['password'];
 	}
 }
-!>
 ```
 
 **Frage:** Wie kann man in PHP Debuggen? (Funktion)
