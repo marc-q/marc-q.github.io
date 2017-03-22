@@ -6,6 +6,7 @@ title: Übungsaufgabe WAN - PHPLogon
 ## Lösungen werden per E-Mail eingereicht.
 
 **Hilfsmittel:** Keine!
+
 Beantworten Sie die Fragen Schriftlich, in kurzen Sätzen.
 Sie haben dafür 90 Minuten Zeit.
 Codebeispiele bitte auf einem **extra** Blatt anfertigen.
