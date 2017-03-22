@@ -142,6 +142,7 @@ Wenn zum Beispiel eine SELECT-Abfrage eine leere Menge aufgrund einer
 leeren Tabelle zurück gibt ist dass kein Fehler.
 die prüft aber nur ob NULL zurückgeben wird und bei NULL ist  
 es ein Fehler.
+
 **Frage:** Wann darf die verwendet werden?
 
 **Antwort:**
