@@ -7,8 +7,8 @@ title: Übungsaufgabe Robotik - Marsbar
 
 **Hilfsmittel:** Ihre Programme, der Roboter RS40.
 
-Beantworten Sie die Fragen Schriftlich, in kurzen Sätzen.
-Sie haben dafür 90 Minuten Zeit.
+Beantworten Sie die Fragen Schriftlich, in kurzen Sätzen.   
+Sie haben dafür 90 Minuten Zeit.   
 Codebeispiele bitte dem Programmcode **hinzufügen**.
 <br/><br/>
 **Programmcode bitte am Ende im Ablagenordner unter KA_ROBOTIK unter ihrem Namen hochladen!**
