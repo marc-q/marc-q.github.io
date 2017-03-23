@@ -9,7 +9,7 @@ title: Übungsaufgabe Robotik - Marsbar
 
 Beantworten Sie die Fragen Schriftlich, in kurzen Sätzen.   
 Sie haben dafür 90 Minuten Zeit.   
-Codebeispiele bitte dem Programmcode **hinzufügen**.
+Codebeispiele bitte dem **Programmcode hinzufügen**.
 <br/><br/>
 **Programmcode bitte am Ende im Ablagenordner unter KA_ROBOTIK unter ihrem Namen hochladen!**
 
