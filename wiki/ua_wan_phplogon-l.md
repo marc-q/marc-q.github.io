@@ -63,7 +63,7 @@ Auf gar keinen Fall in Klartext, ich würde einen Salt (Hashsumme) verwenden.
 
 **Antwort:**
 
-```inc
+```php
 function save_password ($db, $password)
 {
 	$hash = password_hash ('$password', PASSWORD_DEFAULT);
@@ -86,7 +86,7 @@ Die Funktion gibt die Fehlermeldung zurück.
 
 **Antwort:**
 
-```inc
+```php
 function insert_data ($db, $username, $password)
 {
 	$loginname = mysqli_real_escape_string ($db, '§username');
@@ -101,7 +101,7 @@ function insert_data ($db, $username, $password)
 **Antwort:**
 Bei der Methode POST verwendet man
 
-```inc
+```php
 _POST['FELDNAME']
 ```
 
@@ -116,7 +116,7 @@ _GET['FELDNAME']
 **Antwort:**
 Ich nutze die header Funktion.
 
-```inc
+```php
 header ("Location: http://...");
 ```
 
@@ -142,7 +142,7 @@ Wenn der zurückgegebene Wert nur im Fehlerfall NULL oder false haben kann.
 
 **Antwort:**
 
-```inc
+```php
 function save_password ($db, $username)
 {
 	$loginname = mysqli_real_escape_string ($db, '§username');
