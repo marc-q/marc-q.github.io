@@ -16,65 +16,31 @@ table th, table td {padding: 6px 13px;}
 div#message h1, div#message p {text-align: center; font-weight: bold;}
 div#message h1 {font-size: 5em;}
 
+.highlight { background-color: #11100f; }
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
-.highlight .cm { color: #999988; font-style: italic; }
-.highlight .cp { color: #999999; font-weight: bold; }
-.highlight .c1 { color: #999988; font-style: italic; }
-.highlight .cs { color: #999999; font-weight: bold; font-style: italic; }
-.highlight .c, .highlight .cd { color: #999988; font-style: italic; }
-.highlight .err { color: #a61717; background-color: #e3d2d2; }
-.highlight .gd { color: #bebebe; background-color: #ffdddd; }
-.highlight .ge { color: #bebebe; font-style: italic; }
-.highlight .gr { color: #aa0000; }
-.highlight .gh { color: #999999; }
-.highlight .gi { color: #bebebe; background-color: #ddffdd; }
-.highlight .go { color: #888888; }
-.highlight .gp { color: #555555; }
-.highlight .gs { font-weight: bold; }
-.highlight .gu { color: #aaaaaa; }
-.highlight .gt { color: #aa0000; }
-.highlight .kc { color: #bebebe; font-weight: bold; }
-.highlight .kd { color: #bebebe; font-weight: bold; }
-.highlight .kn { color: #bebebe; font-weight: bold; }
-.highlight .kp { color: #bebebe; font-weight: bold; }
-.highlight .kr { color: #bebebe; font-weight: bold; }
-.highlight .kt { color: #445588; font-weight: bold; }
-.highlight .k, .highlight .kv { color: #bebebe; font-weight: bold; }
-.highlight .mf { color: #009999; }
-.highlight .mh { color: #009999; }
-.highlight .il { color: #009999; }
-.highlight .mi { color: #009999; }
-.highlight .mo { color: #009999; }
-.highlight .m, .highlight .mb, .highlight .mx { color: #009999; }
-.highlight .sb { color: #d14; }
-.highlight .sc { color: #d14; }
-.highlight .sd { color: #d14; }
-.highlight .s2 { color: #d14; }
-.highlight .se { color: #d14; }
-.highlight .sh { color: #d14; }
-.highlight .si { color: #d14; }
-.highlight .sx { color: #d14; }
-.highlight .sr { color: #009926; }
-.highlight .s1 { color: #d14; }
-.highlight .ss { color: #990073; }
-.highlight .s { color: #d14; }
-.highlight .na { color: #008080; }
-.highlight .bp { color: #999999; }
-.highlight .nb, .highlight .nt { color: #0086B3; }
-.highlight .nc { color: #445588; font-weight: bold; }
-.highlight .no { color: #008080; }
-.highlight .nd { color: #3c5d5d; font-weight: bold; }
-.highlight .ni { color: #800080; }
-.highlight .ne { color: #990000; font-weight: bold; }
-.highlight .nf { color: #990000; font-weight: bold; }
-.highlight .nl { color: #990000; font-weight: bold; }
-.highlight .nn { color: #555555; }
-.highlight .vc { color: #008080; }
-.highlight .vg { color: #008080; }
-.highlight .vi { color: #008080; }
-.highlight .nv { color: #008080; }
-.highlight .ow { color: #bebebe; font-weight: bold; }
-.highlight .o { color: #bebebe; font-weight: bold; }
-.highlight .w { color: #bbbbbb; }
-.highlight { background-color: #11100f; }
+
+.cp, .cs, .gs, .kc, .kd, .kn, .kp, .kr, .kv, .kt, .k, .ow, .o, .nc, .nd, .ne, .nf, .nl, .na  { font-weight: bold; }
+.cm, .c1, .cs, .cd, .c, .ge { font-style: italic; }
+
+.kc, .kd, .kn, .kp, .kr, .kv, .k, .ow, .o, .ge, .gd, .gi { color: #bebebe; }
+.sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .s, .s1 { color: #d14; }
+.mf, .mh, .il, .mi, .mo, .mb, .mx, .m { color: #009999; }
+.vc, .vg, .vi, .nv, .no { color: #008080; }
+.ne, .nf, .nl, .na { color: #990000; }
+.cm, .c1, .cd, .c { color: #999988; }
+.bp, .cp, .cs, .gh { color: #999999; }
+.gr, .gt { color: #aa0000; }
+.kt, .nc { color: #445588; }
+.nb, .nt { color: #0086B3; }
+.gp, .nn { color: #555555; }
+.err { color: #a61717; background-color: #e3d2d2; }
+.gd { background-color: #ffdddd; }
+.gi { background-color: #ddffdd; }
+.go { color: #888888; }
+.gu { color: #aaaaaa; }
+.sr { color: #009926; }
+.ss { color: #990073; }
+.nd { color: #3c5d5d; }
+.ni { color: #800080; }
+.w { color: #bbbbbb; }
