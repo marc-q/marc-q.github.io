@@ -26,8 +26,8 @@ div#message h1 {font-size: 5em;}
 .kc, .kd, .kn, .kp, .kr, .kv, .k, .ow, .o, .ge, .gd, .gi { color: #bebebe; }
 .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .s, .s1 { color: #d14; }
 .mf, .mh, .il, .mi, .mo, .mb, .mx, .m { color: #009999; }
-.vc, .vg, .vi, .nv, .no { color: #008080; }
-.ne, .nf, .nl, .na { color: #990000; }
+.vc, .vg, .vi, .nv, .no, .na { color: #008080; }
+.ne, .nf, .nl { color: #990000; }
 .cm, .c1, .cd, .c { color: #999988; }
 .bp, .cp, .cs, .gh { color: #999999; }
 .gr, .gt { color: #aa0000; }
