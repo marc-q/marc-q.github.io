@@ -1,0 +1,135 @@
+---
+layout: default
+---
+ <style>
+    	table#cjs_board {max-width: 90%; border-spacing: 0; float: left;}
+    	table#cjs_board div {width: 64px; height: 64px; text-align: center; line-height: 64px; font-size: 64px; text-shadow: 1px 1px 2px black;}
+    	tr td, tr:nth-child(2n) td:nth-child(2n) {background-color: #8f7952;}
+    	tr td:nth-child(2n), tr:nth-child(2n) td {background-color: wheat;}
+    	div#cjs_side {width: 10%; height: 100%; float: right;}
+    	textarea#cjs_log {height: 512px;}
+    	
+    </style>
+    <script src="{{ 'chess.js' | relative_url }}"></script>
+  <div class="post">
+    <header>
+        <h1>
+            <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+        </h1>
+    </header>
+    
+    {{ content }}
+    
+     <table id="cjs_board">
+    	<thead>
+    	<tr><th></th><th>H</th><th>G</th><th>F</th><th>E</th><th>D</th><th>C</th><th>B</th><th>A</th><th></th></tr>
+    	</thead>
+    	<tbody>
+    	<tr id="cjs_board_1" class="cjs_board_row">
+    		<th>1</th>
+    		<td><div id="h1"></div></td>
+    		<td><div id="g1"></div></td>
+    		<td><div id="f1"></div></td>
+    		<td><div id="e1"></div></td>
+    		<td><div id="d1"></div></td>
+    		<td><div id="c1"></div></td>
+    		<td><div id="b1"></div></td>
+    		<td><div id="a1"></div></td>
+    		<th>1</th>
+    	</tr>
+    	<tr id="cjs_board_2" class="cjs_board_row">
+    		<th>2</th>
+    		<td><div id="h2"></div></td>
+    		<td><div id="g2"></div></td>
+    		<td><div id="f2"></div></td>
+    		<td><div id="e2"></div></td>
+    		<td><div id="d2"></div></td>
+    		<td><div id="c2"></div></td>
+    		<td><div id="b2"></div></td>
+    		<td><div id="a2"></div></td>
+    		<th>2</th>
+    	</tr>
+    	<tr id="cjs_board_3" class="cjs_board_row">
+    		<th>3</th>
+    		<td><div id="h3"></div></td>
+    		<td><div id="g3"></div></td>
+    		<td><div id="f3"></div></td>
+    		<td><div id="e3"></div></td>
+    		<td><div id="d3"></div></td>
+    		<td><div id="c3"></div></td>
+    		<td><div id="b3"></div></td>
+    		<td><div id="a3"></div></td>
+    		<th>3</th>
+    	</tr>
+    	<tr id="cjs_board_4" class="cjs_board_row">
+    		<th>4</th>
+    		<td><div id="h4"></div></td>
+    		<td><div id="g4"></div></td>
+    		<td><div id="f4"></div></td>
+    		<td><div id="e4"></div></td>
+    		<td><div id="d4"></div></td>
+    		<td><div id="c4"></div></td>
+    		<td><div id="b4"></div></td>
+    		<td><div id="a4"></div></td>
+    		<th>4</th>
+    	</tr>
+    	<tr id="cjs_board_5" class="cjs_board_row">
+    		<th>5</th>
+    		<td><div id="h5"></div></td>
+    		<td><div id="g5"></div></td>
+    		<td><div id="f5"></div></td>
+    		<td><div id="e5"></div></td>
+    		<td><div id="d5"></div></td>
+    		<td><div id="c5"></div></td>
+    		<td><div id="b5"></div></td>
+    		<td><div id="a5"></div></td>
+    		<th>5</th>
+    	</tr>
+    	<tr id="cjs_board_6" class="cjs_board_row">
+    		<th>6</th>
+    		<td><div id="h6"></div></td>
+    		<td><div id="g6"></div></td>
+    		<td><div id="f6"></div></td>
+    		<td><div id="e6"></div></td>
+    		<td><div id="d6"></div></td>
+    		<td><div id="c6"></div></td>
+    		<td><div id="b6"></div></td>
+    		<td><div id="a6"></div></td>
+    		<th>6</th>
+    	</tr>
+    	<tr id="cjs_board_7" class="cjs_board_row">
+    		<th>7</th>
+    		<td><div id="h7"></div></td>
+    		<td><div id="g7"></div></td>
+    		<td><div id="f7"></div></td>
+    		<td><div id="e7"></div></td>
+    		<td><div id="d7"></div></td>
+    		<td><div id="c7"></div></td>
+    		<td><div id="b7"></div></td>
+    		<td><div id="a7"></div></td>
+    		<th>7</th>
+    	</tr>
+    	<tr id="cjs_board_8" class="cjs_board_row">
+    		<th>8</th>
+    		<td><div id="h8"></div></td>
+    		<td><div id="g8"></div></td>
+    		<td><div id="f8"></div></td>
+    		<td><div id="e8"></div></td>
+    		<td><div id="d8"></div></td>
+    		<td><div id="c8"></div></td>
+    		<td><div id="b8"></div></td>
+    		<td><div id="a8"></div></td>
+    		<th>8</th>
+    	</tr>
+    	<tr>
+    		<th></th><th>H</th><th>G</th><th>F</th><th>E</th><th>D</th><th>C</th><th>B</th><th>A</th><th></th>
+    	</tr>
+    	</tbody>
+    </table>
+    <div id="cjs_side">
+    	<textarea id="cjs_log"></textarea>
+    	<form>
+    		<input type="text" value="Enter the move of your friend!" />
+    	</form>
+    </div>
+</div>
