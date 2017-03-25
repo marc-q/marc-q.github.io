@@ -38,9 +38,9 @@ angehängt werden.
 
 **Antwort:**
 
-{% highlight html %}
+```html
 <input type="hidden" value="" name="spieler" />
-{% endhighlight %}
+```
 
 <br /><br /><br /><br />
 **Frage:** Wie kann vor dem absenden, dass Formular validieren?
@@ -49,9 +49,9 @@ angehängt werden.
 Indem ich Normale Buttons anstatt Submit-Buttons verwende, und    
 und dass Formular nach dem Prüfen mittels
 
-{% highlight javascript %}
+```javascript
 document.getElementById ("NAME").submit ()  
-{% endhighlight %}
+```
 
 absende.
 **Frage:** Wie speichern Sie dass Password in der Datenbank?
@@ -63,14 +63,14 @@ Auf gar keinen Fall in Klartext, ich würde einen Salt (Hashsumme) verwenden.
 
 **Antwort:**
 
-{% highlight php %}
+```php
 function save_password ($db, $password)
 {
 	$hash = password_hash ('$password', PASSWORD_DEFAULT);
 	$query = "INSERT INTO passwoerter VALUES ('$hash')";
 	$res = mysqli_query ($db, $query);
 }
-{% endhighlight %}
+```
 
 **Frage:** Was ist md5?
 
@@ -86,7 +86,7 @@ Die Funktion gibt die Fehlermeldung zurück.
 
 **Antwort:**
 
-{% highlight php %}
+```php
 function insert_data ($db, $username, $password)
 {
 	$loginname = mysqli_real_escape_string ($db, '§username');
@@ -94,31 +94,31 @@ function insert_data ($db, $username, $password)
 	$query = "INSERT INTO benutzer VALUES ('$loginname', '$hash')";
 	$res = mysqli_query ($db, $query);
 }
-{% endhighlight %}
+```
 
 **Frage:** Wie bekommen sie die Werte des HTML Formulars in PHP?
 
 **Antwort:**
 Bei der Methode POST verwendet man
 
-{% highlight php %}
+```php
 _POST['FELDNAME']
-{% endhighlight %}
+```
 
 für GET
 
-{% highlight php %}
+```inc
 _GET['FELDNAME']
-{% endhighlight %}
+```
 
 **Frage:** Wie leiten sie in PHP den Nutzer auf eine andere Webseite um?
 
 **Antwort:**
 Ich nutze die header Funktion.
 
-{% highlight php %}
+```php
 header ("Location: http://...");
-{% endhighlight %}
+```
 
 **Frage:** Wozu dient in PHP die Funktion die?
 
@@ -142,7 +142,7 @@ Wenn der zurückgegebene Wert nur im Fehlerfall NULL oder false haben kann.
 
 **Antwort:**
 
-{% highlight php %}
+```php
 function save_password ($db, $username)
 {
 	$loginname = mysqli_real_escape_string ($db, '§username');
@@ -159,7 +159,7 @@ function save_password ($db, $username)
 		return $row['password'];
 	}
 }
-{% endhighlight %}
+```
 
 **Frage:** Wie kann man in PHP Debuggen? (Funktion)
 
