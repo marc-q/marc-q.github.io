@@ -1,6 +1,7 @@
 ---
 title: Snippet – Farben im Terminal
 layout: post
+category: Programmieren
 ---
 
 Ich hab mich heute mal wieder mit der Farbausgabe im Terminal mittels Escapesequenzen beschäftigt und   
