@@ -1,6 +1,9 @@
 img, embed, object, video {max-width: 100%;}
 
 small#footer-copy {float: right;}
+footer.post-meta small {padding-right: 1em;}
+.posted-on::before {color: lightgrey; content: "\1f4c5"; font-size: 16px; margin-right: 2px;}
+.cat-links::before {color: lightgrey; content: "\1f5bf"; font-size: 16px; margin-right: 2px;}
 
 blockquote, pre {padding: 1%;}
 blockquote {background-color: lightgrey; color: black;}
