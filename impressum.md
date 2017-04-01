@@ -21,7 +21,7 @@ Ich nehme den Schutz Ihrer persönlichen Daten sehr ernst, jedoch gelten die Dat
 #### Cookies
 | Cookie | Name | Zweck | Mehr Informationen |
 | ------ | ---- | ----- | ------------------ |
-| Google Analytics 	| _utma<br />_utmb <br />_utmc<br />_utmz | Diese Cookies werden benutzt um Informationen bezüglich des Nutzungsverhaltens von Besuchern auf meiner Webseite zu sammeln. Diese nutze ich um meine Webseite zu verbessern. Die Cookies sammeln die Informationen in einer anonymen Form. Darunter ist die Anzahl der Besucher, woher die Besucher kommen sowie die Seiten die Sie hier aufrufen. | Finde mehr über den Datenschutz von Google Analytics auf der nachfolgenden Seite heraus. [support.google.com/analytics/answer/6004245?hl=en!](support.google.com/analytics/answer/6004245?hl=en) |
+| Google Analytics 	| _utma<br />_utmb <br />_utmc<br />_utmz | Diese Cookies werden benutzt um Informationen bezüglich des Nutzungsverhaltens von Besuchern auf meiner Webseite zu sammeln. Diese nutze ich um meine Webseite zu verbessern. Die Cookies sammeln die Informationen in einer anonymen Form. Darunter ist die Anzahl der Besucher, woher die Besucher kommen sowie die Seiten die Sie hier aufrufen. | Finde mehr über den Datenschutz von Google Analytics auf der nachfolgenden Seite heraus. [https://support.google.com/analytics/answer/6004245?hl=en!](https://support.google.com/analytics/answer/6004245?hl=en) |
 
 #### Weitere Informationen
 
