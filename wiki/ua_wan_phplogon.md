@@ -28,7 +28,7 @@ Codebeispiele bitte auf einem **extra** Blatt anfertigen.
 
 **Antwort:**
 <br /><br /><br /><br />
-**Frage:** Erstellen sie ein Versteckes Input-Element mit dem Namen "spieler".
+**Frage:** Erstellen Sie ein Versteckes Input-Element mit dem Namen "spieler".
 
 **Antwort:**
 <br /><br /><br /><br />
@@ -36,11 +36,11 @@ Codebeispiele bitte auf einem **extra** Blatt anfertigen.
 
 **Antwort:**
 <br /><br /><br /><br />
-**Frage:** Wie speichern sie dass Password in der Datenbank?
+**Frage:** Wie speichern Sie dass Password in der Datenbank?
 
 **Antwort:**
 <br /><br /><br /><br />
-**Frage:** Erstellen sie eine Funktion welches Passwörter sicher speichert.
+**Frage:** Erstellen Sie eine Funktion welches Passwörter sicher speichert.
 
 **Antwort:**
 <br /><br /><br /><br />
@@ -56,11 +56,11 @@ Codebeispiele bitte auf einem **extra** Blatt anfertigen.
 
 **Antwort:**
 <br /><br /><br /><br />
-**Frage:** Wie bekommen sie die Werte des HTML Formulars in PHP?
+**Frage:** Wie bekommen Sie die Werte des HTML Formulars in PHP?
 
 **Antwort:**
 <br /><br /><br /><br />
-**Frage:** Wie leiten sie in PHP den Nutzer auf eine andere Webseite um?
+**Frage:** Wie leiten Sie in PHP den Nutzer auf eine andere Webseite um?
 
 **Antwort:**
 <br /><br /><br /><br />
