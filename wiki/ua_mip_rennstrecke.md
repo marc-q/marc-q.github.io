@@ -3,7 +3,7 @@ layout: page
 title: Übungsaufgabe MIP - Rennstrecke
 ---
 
-## Lösungen werden per mail eingereicht.
+## Lösungen werden per E-Mail eingereicht.
 
 Ein über Kanal 2 des AD-Wandlers angeschlossenes Pedometer misst die Geschwindigkeit   
 eines vorbeifahrenden Autos mit folgender Formel.
@@ -11,7 +11,7 @@ eines vorbeifahrenden Autos mit folgender Formel.
 Es wird die interne Referenzspannung von 5 Volt eingesetzt.
 
 ```
-t in km pro stunde.
+t in km pro Stunde.
 t = 10kmh/V * 5.5
 ```
 
@@ -30,13 +30,13 @@ Welcher Vorteiler setzten Sie für die Zeitmessung ein und warum?
 ### Aufgabe C
 Warum kann Timer0 nicht eingesetzt werden? (Mehrere Gründe möglich)
 
-## EXTRA: Achtung der Teil ist schwerer und daher nicht pflicht!
+## EXTRA: Achtung der Teil ist schwerer und daher nicht Pflicht!
 
-Nachdem der Wert ermittelt worden ist, soll dass Ergebniss so schnell wie möglich  
+Nachdem der Wert ermittelt worden ist, soll dass Ergebnis so schnell wie möglich  
 an die Rennleitung geschickt werden.
 
 Diese kann den Wert über ein LCD Display ablesen.
 
 ### Aufgabe D
 Entwickeln Sie dass Programm und Testen Sie es im Simulator.
-Modifizieren Sie hierfür gegebenfalls ihr Programm aus **Aufgabe A**.
+Modifizieren Sie hierfür gegebenenfalls ihr Programm aus **Aufgabe A**.

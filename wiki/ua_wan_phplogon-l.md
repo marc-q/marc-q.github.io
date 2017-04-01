@@ -7,9 +7,9 @@ title: Übungsaufgabe WAN - PHPLogon - Lösungen
 
 **Hilfsmittel:** Keine!
 
-Beantworten Sie die Fragen Schriftlich, in kurzen Sätzen.
-Sie haben dafür 90 Minuten Zeit.
-Codebeispiele bitte auf einem **extra** Blatt anfertigen.
+Beantworten Sie die Fragen Schriftlich, in kurzen Sätzen.   
+Sie haben dafür 90 Minuten Zeit.   
+Codebeispiele bitte auf einem **extra** Blatt anfertigen.    
 
 **Frage:** Warum muss man dem action-Attribut des Formulars einen Wert zuweisen?
 
@@ -21,8 +21,7 @@ Damit der Browser weiß, wohin er die Daten schicken soll.
 **Antwort:**
 Die Zieladresse wohin die Daten geschickt werden soll.
 <br /><br /><br />
-
-**Frage:** Welche übertragungs-Methoden gibt es?
+**Frage:** Welche Übertragungsmethoden gibt es?
 
 **Antwort:**
 Es gibt POST und GET.
@@ -34,7 +33,7 @@ GET hängt dabei die Werte an die Adresse an, POST tut dies nicht.
 Weil dass Sicherer ist, da die Daten nicht wie bei GET an die Adresse  
 angehängt werden.
 <br /><br />
-**Frage:** Erstellen sie ein Versteckes Input-Element mit dem Namen "spieler".
+**Frage:** Erstellen Sie ein Versteckes Input-Element mit dem Namen "spieler".
 
 **Antwort:**
 
@@ -42,7 +41,7 @@ angehängt werden.
 <input type="hidden" value="" name="spieler" />
 ```
 
-<br /><br /><br /><br />
+<br />
 **Frage:** Wie kann vor dem absenden, dass Formular validieren?
 
 **Antwort:**
@@ -54,12 +53,13 @@ document.getElementById ("NAME").submit ()
 ```
 
 absende.
+<br />
 **Frage:** Wie speichern Sie dass Password in der Datenbank?
 
 **Antwort:**
 Auf gar keinen Fall in Klartext, ich würde einen Salt (Hashsumme) verwenden.
 <br /><br /><br />
-**Frage:** Erstellen sie eine Funktion welches Passwörter sicher speichert.
+**Frage:** Erstellen Sie eine Funktion welches Passwörter sicher speichert.
 
 **Antwort:**
 
@@ -96,7 +96,7 @@ function insert_data ($db, $username, $password)
 }
 ```
 
-**Frage:** Wie bekommen sie die Werte des HTML Formulars in PHP?
+**Frage:** Wie bekommen Sie die Werte des HTML Formulars in PHP?
 
 **Antwort:**
 Bei der Methode POST verwendet man
@@ -107,11 +107,11 @@ _POST['FELDNAME']
 
 für GET
 
-```inc
+```php
 _GET['FELDNAME']
 ```
 
-**Frage:** Wie leiten sie in PHP den Nutzer auf eine andere Webseite um?
+**Frage:** Wie leiten Sie in PHP den Nutzer auf eine andere Webseite um?
 
 **Antwort:**
 Ich nutze die header Funktion.
@@ -164,6 +164,10 @@ function save_password ($db, $username)
 **Frage:** Wie kann man in PHP Debuggen? (Funktion)
 
 **Antwort:**
-Mithilfe der Funktion "var_dump($variable);".
+Mithilfe der Funktion
+
+```php
+var_dump($variable);
+```
 <br /><br /><br />
 Alles beantwortet? - Gut vorbereitet!

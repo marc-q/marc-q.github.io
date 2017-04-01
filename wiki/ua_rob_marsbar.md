@@ -11,7 +11,7 @@ Beantworten Sie die Fragen Schriftlich, in kurzen Sätzen.
 Sie haben dafür 90 Minuten Zeit.   
 Codebeispiele bitte dem **Programmcode hinzufügen**.
 <br/><br/>
-**Programmcode bitte am Ende im Ablagenordner unter KA_ROBOTIK unter ihrem Namen hochladen!**
+**Programmcode bitte am Ende im Ablageordner unter KA_ROBOTIK unter ihrem Namen hochladen!**
 
 Sie haben einen Job in der Marsfabrik bekommen und sollen   
 an ihrem ersten Tag einen Roboter für den neuen Produktionsschritt
