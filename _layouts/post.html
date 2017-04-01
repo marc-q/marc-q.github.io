@@ -6,7 +6,7 @@ layout: page
      <article class="post">
         <header class="post-header">
           <h2>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            <a class="post-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
           </h2>
         </header>
         
@@ -15,8 +15,8 @@ layout: page
         </section>
         
         <footer class="post-meta">
-          <small class="posted-on"><time datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time></small>
-          <small class="cat-links">{{ post.category }}</small>
+          <small class="posted-on"><time datetime="{{ page.date }}">{{ page.date | date: "%b %-d, %Y" }}</time></small>
+          <small class="cat-links">{{ page.category }}</small>
         </footer>
     </article>
   </div>
