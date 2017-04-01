@@ -7,9 +7,9 @@ title: Übungsaufgabe WAN - PHPLogon
 
 **Hilfsmittel:** Keine!
 
-Beantworten Sie die Fragen Schriftlich, in kurzen Sätzen.
-Sie haben dafür 90 Minuten Zeit.
-Codebeispiele bitte auf einem **extra** Blatt anfertigen.
+Beantworten Sie die Fragen Schriftlich, in kurzen Sätzen.   
+Sie haben dafür 90 Minuten Zeit.   
+Codebeispiele bitte auf einem **extra** Blatt anfertigen.   
 
 **Frage:** Warum muss man dem action-Attribut des Formulars einen Wert zuweisen?
 
@@ -20,7 +20,7 @@ Codebeispiele bitte auf einem **extra** Blatt anfertigen.
 **Antwort:**
 <br /><br /><br /><br />
 
-**Frage:** Welche übertragungs-Methoden gibt es?
+**Frage:** Welche Übertragungsmethoden gibt es?
 
 **Antwort:**
 <br /><br /><br /><br />
@@ -84,4 +84,5 @@ Codebeispiele bitte auf einem **extra** Blatt anfertigen.
 
 **Antwort:**
 <br /><br /><br /><br />
+
 Alles beantwortet? - Gut vorbereitet!
