@@ -3,5 +3,20 @@ layout: page
 ---
 
   <div class="post">
-    {{ content }}
+     <article class="post">
+        <header class="post-header">
+          <h2>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h2>
+        </header>
+        
+        <section class="post-content">
+          {{ content }}
+        </section>
+        
+        <footer class="post-meta">
+          <small class="posted-on"><time datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time></small>
+          <small class="cat-links">{{ post.category }}</small>
+        </footer>
+    </article>
   </div>
