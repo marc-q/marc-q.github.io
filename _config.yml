@@ -1,5 +1,4 @@
 title: marcvd
-paginate: 10
 
 defaults:
   -
@@ -12,4 +11,3 @@ defaults:
 gems:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-paginate
