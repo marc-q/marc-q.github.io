@@ -4,8 +4,6 @@ small#footer-copy {float: right;}
 footer.post-meta small {padding-right: 1em;}
 .posted-on::before {font-family: 'Material Icons'; color: lightgrey; content: "\e916"; margin-right: 2px;}
 .cat-links::before {font-family: 'Material Icons'; color: lightgrey; content: "\e2c7"; margin-right: 2px;}
-.pagination .previous::before {font-family: 'Material Icons'; color: lightgrey; content: "\e408"; width: 56px; height: 56px; line-height: 56px;} 
-.pagination .next::before {font-family: 'Material Icons'; color: lightgrey; content: "\e409"; width: 56px; height: 56px; line-height: 56px;}
 
 blockquote, pre {padding: 1%;}
 blockquote {background-color: lightgrey; color: black;}
