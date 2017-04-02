@@ -6,7 +6,7 @@ footer.post-meta small {padding-right: 1em;}
 .cat-links::before {font-family: 'Material Icons'; color: lightgrey; content: "\e2c7"; margin-right: 2px;}
 
 blockquote, pre {padding: 1%;}
-blockquote {background-color: lightgrey; color: black;}
+blockquote {border-left: 7px solid lightgray;}
 pre {white-space: pre-wrap;}
 
 li > p {margin-top: 16px;}
