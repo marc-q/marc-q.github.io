@@ -1,6 +1,4 @@
 title: marcvd
-paginate: 10
-
 defaults:
   -
     scope:
@@ -13,3 +11,5 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
+paginate_path: /page:num
+paginate: 10
