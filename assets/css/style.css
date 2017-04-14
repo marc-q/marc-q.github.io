@@ -2,11 +2,12 @@ img, embed, object, video {max-width: 100%;}
 
 small#footer-copy {float: right;}
 footer.post-meta small {padding-right: 1em;}
-.posted-on::before {font-family: 'Material Icons'; color: lightgrey; content: "\e916"; margin-right: 2px;}
-.cat-links::before {font-family: 'Material Icons'; color: lightgrey; content: "\e2c7"; margin-right: 2px;}
+.posted-on::before, .cat-links::before {font-family: 'Material Icons'; color: lightgrey; margin-right: 2px; line-height: 1; font-size: 16px; position: relative; top: 4px; vertical-align: top;}
+.posted-on::before {content: "\e916";}
+.cat-links::before {content: "\e2c7";}
 
 blockquote, pre {padding: 1%;}
-blockquote {background-color: lightgrey; color: black;}
+blockquote {border-left: 7px solid lightgray;}
 pre {white-space: pre-wrap;}
 
 li > p {margin-top: 16px;}
